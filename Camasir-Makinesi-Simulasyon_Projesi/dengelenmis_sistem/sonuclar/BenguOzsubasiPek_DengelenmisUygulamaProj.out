@@ -1,0 +1,838 @@
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 1 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.271     .16988     27.596     51.692       3191    
+ElektrikMontajQ.WaitingTime                 .02286     .00573     .00000     3.0002       3570    
+SacKesimBukumQ.WaitingTime                  2.9606     .08791     .00000     9.7428       3123    
+MetalSekillendirmeQ.WaitingTime             2.5532     .07689     .00000     9.2720       4020    
+FonksiyonTestiQ.WaitingTime                 1.6466     .11340     .00000     11.540       3571    
+MontajPresiQ.WaitingTime                    7.9055E-04 .00129     .00000     2.1350       3571    
+Birlestirme.Queue.WaitingTime               2.1386     .04316     .00000     26.040       7142    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1573     .01468     .00000     2.0000     .00000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .57870     .00734     .00000     1.0000     .00000    
+SacKesimBukumR.NumberBusy                   .75900     .01332     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .75900     .01332     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberBusy              .78521     .01300     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .78521     .01300     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .83171     .01002     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .83171     .01002     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0375     .01213     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .51877     .00606     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00264     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .29932     .01240     .00000     1.0000     1.0000    
+MetalSekillendirmeQ.NumberInQueue           .33217     .01267     .00000     1.0000     .00000    
+FonksiyonTestiQ.NumberInQueue               .19031     .01317     .00000     2.0000     1.0000    
+MontajPresiQ.NumberInQueue                  9.1361E-05 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .49425     .00779     .00000     2.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        380  Infinite
+Packed                                          319  Infinite
+FinishedJob                                    3191  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3570.0    
+ElektrikMontajR.ScheduledUtilization        .57870    
+SacKesimBukumR.NumberSeized                 3123.0    
+SacKesimBukumR.ScheduledUtilization         .75900    
+MetalSekillendirmeR.NumberSeized            4020.0    
+MetalSekillendirmeR.ScheduledUtilization    .78521    
+FonksiyonTestiR.NumberSeized                3571.0    
+FonksiyonTestiR.ScheduledUtilization        .83171    
+MontajPresiR.NumberSeized                   3571.0    
+MontajPresiR.ScheduledUtilization           .51877    
+System.NumberOut                            .00000    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 2 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.539     .18959     27.899     52.973       3270    
+ElektrikMontajQ.WaitingTime                 .01602     .00490     .00000     2.7338       3628    
+SacKesimBukumQ.WaitingTime                  3.0232     .09835     .00000     9.7289       3122    
+MetalSekillendirmeQ.WaitingTime             2.6618     .07403     .00000     8.8286       4133    
+FonksiyonTestiQ.WaitingTime                 1.8062     .16978     .00000     14.040       3626    
+MontajPresiQ.WaitingTime                    9.0791E-04 8.9339E-04 .00000     1.2613       3627    
+Birlestirme.Queue.WaitingTime               2.1314     .05365     .00000     45.088       7254    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1738     .01169     .00000     2.0000     2.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .58695     .00585     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberBusy                   .76071     .01685     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .76071     .01685     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberBusy              .80427     .01191     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .80427     .01191     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .84400     .00943     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .84400     .00943     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0580     .01164     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52904     .00582     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00188     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .30541     .01424     .00000     1.0000     .00000    
+MetalSekillendirmeQ.NumberInQueue           .35604     .01062     .00000     1.0000     .00000    
+FonksiyonTestiQ.NumberInQueue               .21195     .01636     .00000     2.0000     .00000    
+MontajPresiQ.NumberInQueue                  1.0657E-04 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .50038     .01023     .00000     2.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        356  Infinite
+Packed                                          327  Infinite
+FinishedJob                                    3270  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3628.0    
+ElektrikMontajR.ScheduledUtilization        .58695    
+SacKesimBukumR.NumberSeized                 3122.0    
+SacKesimBukumR.ScheduledUtilization         .76071    
+MetalSekillendirmeR.NumberSeized            4133.0    
+MetalSekillendirmeR.ScheduledUtilization    .80427    
+FonksiyonTestiR.NumberSeized                3626.0    
+FonksiyonTestiR.ScheduledUtilization        .84400    
+MontajPresiR.NumberSeized                   3627.0    
+MontajPresiR.ScheduledUtilization           .52904    
+System.NumberOut                            .00000    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 3 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.420     (Corr)     28.133     51.974       3229    
+ElektrikMontajQ.WaitingTime                 .02083     .00629     .00000     3.0101       3578    
+SacKesimBukumQ.WaitingTime                  2.9853     .13173     .00000     9.9306       3098    
+MetalSekillendirmeQ.WaitingTime             2.5566     .08451     .00000     8.4808       4056    
+FonksiyonTestiQ.WaitingTime                 1.6956     .18321     .00000     13.320       3578    
+MontajPresiQ.WaitingTime                    9.5802E-04 8.0391E-04 .00000     .84921       3577    
+Birlestirme.Queue.WaitingTime               2.1956     (Corr)     .00000     25.828       7154    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1632     .00963     .00000     2.0000     1.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .58164     .00481     .00000     1.0000     .50000    
+SacKesimBukumR.NumberBusy                   .75103     .01344     .00000     1.0000     .00000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .75103     .01344     .00000     1.0000     .00000    
+MetalSekillendirmeR.NumberBusy              .78922     .01166     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .78922     .01166     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .83334     .00753     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .83334     .00753     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0422     (Corr)     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52111     (Corr)     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00241     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .29931     .01333     .00000     1.0000     .00000    
+MetalSekillendirmeQ.NumberInQueue           .33579     .01335     .00000     1.0000     1.0000    
+FonksiyonTestiQ.NumberInQueue               .19633     .02057     .00000     2.0000     1.0000    
+MontajPresiQ.NumberInQueue                  1.1090E-04 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .50835     (Corr)     .00000     2.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        349  Infinite
+Packed                                          323  Infinite
+FinishedJob                                    3229  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3578.0    
+ElektrikMontajR.ScheduledUtilization        .58164    
+SacKesimBukumR.NumberSeized                 3098.0    
+SacKesimBukumR.ScheduledUtilization         .75103    
+MetalSekillendirmeR.NumberSeized            4056.0    
+MetalSekillendirmeR.ScheduledUtilization    .78922    
+FonksiyonTestiR.NumberSeized                3578.0    
+FonksiyonTestiR.ScheduledUtilization        .83334    
+MontajPresiR.NumberSeized                   3577.0    
+MontajPresiR.ScheduledUtilization           .52111    
+System.NumberOut                            .00000    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 4 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.234     .29036     27.344     49.913       3223    
+ElektrikMontajQ.WaitingTime                 .02203     .00627     .00000     3.0716       3581    
+SacKesimBukumQ.WaitingTime                  2.8949     .10309     .00000     9.8695       3081    
+MetalSekillendirmeQ.WaitingTime             2.5177     .07701     .00000     9.0325       4084    
+FonksiyonTestiQ.WaitingTime                 1.7323     .18761     .00000     12.686       3580    
+MontajPresiQ.WaitingTime                    .00121     .00116     .00000     1.1262       3583    
+Birlestirme.Queue.WaitingTime               2.1608     .05039     .00000     30.853       7166    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1623     .01566     .00000     2.0000     1.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .58116     .00783     .00000     1.0000     .50000    
+SacKesimBukumR.NumberBusy                   .74745     .01766     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .74745     .01766     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberBusy              .79288     .01184     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .79288     .01184     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .83494     .01195     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .83494     .01195     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0428     .01451     .00000     2.0000     2.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52141     .00725     .00000     1.0000     1.0000    
+ElektrikMontajQ.NumberInQueue               .00255     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .28849     .01372     .00000     1.0000     .00000    
+MetalSekillendirmeQ.NumberInQueue           .33277     .01349     .00000     1.0000     .00000    
+FonksiyonTestiQ.NumberInQueue               .20083     .02127     .00000     2.0000     1.0000    
+MontajPresiQ.NumberInQueue                  1.4058E-04 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .50100     .01069     .00000     2.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        357  Infinite
+Packed                                          323  Infinite
+FinishedJob                                    3223  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3581.0    
+ElektrikMontajR.ScheduledUtilization        .58116    
+SacKesimBukumR.NumberSeized                 3081.0    
+SacKesimBukumR.ScheduledUtilization         .74745    
+MetalSekillendirmeR.NumberSeized            4084.0    
+MetalSekillendirmeR.ScheduledUtilization    .79288    
+FonksiyonTestiR.NumberSeized                3580.0    
+FonksiyonTestiR.ScheduledUtilization        .83494    
+MontajPresiR.NumberSeized                   3583.0    
+MontajPresiR.ScheduledUtilization           .52141    
+System.NumberOut                            .00000    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 5 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.246     .19825     27.891     51.107       3263    
+ElektrikMontajQ.WaitingTime                 .01611     .00557     .00000     3.1387       3623    
+SacKesimBukumQ.WaitingTime                  2.9973     .08507     .00000     9.8236       3140    
+MetalSekillendirmeQ.WaitingTime             2.5420     .06595     .00000     9.5777       4107    
+FonksiyonTestiQ.WaitingTime                 1.7204     .15344     .00000     11.939       3623    
+MontajPresiQ.WaitingTime                    .00162     .00118     .00000     1.2115       3623    
+Birlestirme.Queue.WaitingTime               2.1191     .06118     .00000     29.045       7246    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1723     .01754     .00000     2.0000     2.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .58618     .00877     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberBusy                   .76213     .01657     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .76213     .01657     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberBusy              .79404     .01391     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .79404     .01391     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .84365     .01269     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .84365     .01269     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0565     .01719     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52827     .00860     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00189     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .30459     .01198     .00000     1.0000     .00000    
+MetalSekillendirmeQ.NumberInQueue           .33787     .01143     .00000     1.0000     .00000    
+FonksiyonTestiQ.NumberInQueue               .20172     .01918     .00000     2.0000     .00000    
+MontajPresiQ.NumberInQueue                  1.9034E-04 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .49694     .01328     .00000     2.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        359  Infinite
+Packed                                          326  Infinite
+FinishedJob                                    3263  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3623.0    
+ElektrikMontajR.ScheduledUtilization        .58618    
+SacKesimBukumR.NumberSeized                 3140.0    
+SacKesimBukumR.ScheduledUtilization         .76213    
+MetalSekillendirmeR.NumberSeized            4107.0    
+MetalSekillendirmeR.ScheduledUtilization    .79404    
+FonksiyonTestiR.NumberSeized                3623.0    
+FonksiyonTestiR.ScheduledUtilization        .84365    
+MontajPresiR.NumberSeized                   3623.0    
+MontajPresiR.ScheduledUtilization           .52827    
+System.NumberOut                            .00000    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 6 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.574     .17341     27.090     54.574       3278    
+ElektrikMontajQ.WaitingTime                 .02427     .00567     .00000     3.4465       3635    
+SacKesimBukumQ.WaitingTime                  3.0931     .07779     .00000     9.8935       3159    
+MetalSekillendirmeQ.WaitingTime             2.5575     .06233     .00000     9.6743       4110    
+FonksiyonTestiQ.WaitingTime                 1.8618     .17618     .00000     13.272       3637    
+MontajPresiQ.WaitingTime                    7.1880E-04 7.6246E-04 .00000     1.1423       3635    
+Birlestirme.Queue.WaitingTime               2.1158     .05162     .00000     22.817       7270    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1760     .01449     .00000     2.0000     1.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .58802     .00725     .00000     1.0000     .50000    
+SacKesimBukumR.NumberBusy                   .76979     (Corr)     .00000     1.0000     .00000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .76979     (Corr)     .00000     1.0000     .00000    
+MetalSekillendirmeR.NumberBusy              .79745     .01127     .00000     1.0000     .00000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .79745     .01127     .00000     1.0000     .00000    
+FonksiyonTestiR.NumberBusy                  .84787     .01046     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .84787     .01046     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0594     .01217     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52973     .00609     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00286     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .31610     (Corr)     .00000     1.0000     .00000    
+MetalSekillendirmeQ.NumberInQueue           .34016     .01116     .00000     1.0000     .00000    
+FonksiyonTestiQ.NumberInQueue               .21898     .02173     .00000     2.0000     .00000    
+MontajPresiQ.NumberInQueue                  8.4558E-05 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .49781     .01102     .00000     2.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        359  Infinite
+Packed                                          328  Infinite
+FinishedJob                                    3278  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3635.0    
+ElektrikMontajR.ScheduledUtilization        .58802    
+SacKesimBukumR.NumberSeized                 3159.0    
+SacKesimBukumR.ScheduledUtilization         .76979    
+MetalSekillendirmeR.NumberSeized            4110.0    
+MetalSekillendirmeR.ScheduledUtilization    .79745    
+FonksiyonTestiR.NumberSeized                3637.0    
+FonksiyonTestiR.ScheduledUtilization        .84787    
+MontajPresiR.NumberSeized                   3635.0    
+MontajPresiR.ScheduledUtilization           .52973    
+System.NumberOut                            .00000    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 7 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.350     .21783     27.829     54.298       3249    
+ElektrikMontajQ.WaitingTime                 .02197     .00671     .00000     3.1585       3597    
+SacKesimBukumQ.WaitingTime                  2.9941     .10757     .00000     9.9302       3124    
+MetalSekillendirmeQ.WaitingTime             2.5109     (Corr)     .00000     9.0664       4070    
+FonksiyonTestiQ.WaitingTime                 1.7785     .18644     .00000     15.277       3597    
+MontajPresiQ.WaitingTime                    7.7416E-04 6.0200E-04 .00000     .89139       3597    
+Birlestirme.Queue.WaitingTime               2.1295     .04454     .00000     20.483       7194    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1660     .01315     .00000     2.0000     2.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .58301     .00657     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberBusy                   .75836     .01552     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .75836     .01552     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberBusy              .79212     .01102     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .79212     .01102     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .83849     .00886     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .83849     .00886     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0448     .01068     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52242     .00534     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00256     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .30273     .01528     .00000     1.0000     1.0000    
+MetalSekillendirmeQ.NumberInQueue           .33072     (Corr)     .00000     1.0000     .00000    
+FonksiyonTestiQ.NumberInQueue               .20692     .02187     .00000     3.0000     .00000    
+MontajPresiQ.NumberInQueue                  9.0118E-05 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .49576     .00959     .00000     2.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        348  Infinite
+Packed                                          324  Infinite
+FinishedJob                                    3249  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3597.0    
+ElektrikMontajR.ScheduledUtilization        .58301    
+SacKesimBukumR.NumberSeized                 3124.0    
+SacKesimBukumR.ScheduledUtilization         .75836    
+MetalSekillendirmeR.NumberSeized            4070.0    
+MetalSekillendirmeR.ScheduledUtilization    .79212    
+FonksiyonTestiR.NumberSeized                3597.0    
+FonksiyonTestiR.ScheduledUtilization        .83849    
+MontajPresiR.NumberSeized                   3597.0    
+MontajPresiR.ScheduledUtilization           .52242    
+System.NumberOut                            .00000    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 8 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.443     .17290     27.952     51.869       3210    
+ElektrikMontajQ.WaitingTime                 .02047     (Corr)     .00000     2.8193       3590    
+SacKesimBukumQ.WaitingTime                  2.8786     .07284     .00000     9.7301       3064    
+MetalSekillendirmeQ.WaitingTime             2.6372     .05962     .00000     9.4778       4116    
+FonksiyonTestiQ.WaitingTime                 1.7076     .13822     .00000     14.291       3590    
+MontajPresiQ.WaitingTime                    8.1270E-04 .00109     .00000     1.6188       3590    
+Birlestirme.Queue.WaitingTime               2.1470     .05104     .00000     23.295       7180    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1656     .01327     .00000     2.0000     2.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .58281     .00663     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberBusy                   .74083     .01221     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .74083     .01221     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberBusy              .79962     .01054     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .79962     .01054     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .83717     .00944     .00000     1.0000     .00000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .83717     .00944     .00000     1.0000     .00000    
+MontajPresiR.NumberBusy                     1.0457     .01225     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52289     .00613     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00238     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .28556     .00851     .00000     1.0000     1.0000    
+MetalSekillendirmeQ.NumberInQueue           .35132     .01269     .00000     1.0000     1.0000    
+FonksiyonTestiQ.NumberInQueue               .19839     .01780     .00000     2.0000     .00000    
+MontajPresiQ.NumberInQueue                  9.4420E-05 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .49887     .00999     .00000     2.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        381  Infinite
+Packed                                          321  Infinite
+FinishedJob                                    3210  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3590.0    
+ElektrikMontajR.ScheduledUtilization        .58281    
+SacKesimBukumR.NumberSeized                 3064.0    
+SacKesimBukumR.ScheduledUtilization         .74083    
+MetalSekillendirmeR.NumberSeized            4116.0    
+MetalSekillendirmeR.ScheduledUtilization    .79962    
+FonksiyonTestiR.NumberSeized                3590.0    
+FonksiyonTestiR.ScheduledUtilization        .83717    
+MontajPresiR.NumberSeized                   3590.0    
+MontajPresiR.ScheduledUtilization           .52289    
+System.NumberOut                            .00000    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 9 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.271     .14517     27.328     52.197       3252    
+ElektrikMontajQ.WaitingTime                 .02164     .00791     .00000     3.3522       3610    
+SacKesimBukumQ.WaitingTime                  2.9578     .11783     .00000     9.8879       3129    
+MetalSekillendirmeQ.WaitingTime             2.5554     .06353     .00000     9.8410       4091    
+FonksiyonTestiQ.WaitingTime                 1.6229     .14223     .00000     12.556       3610    
+MontajPresiQ.WaitingTime                    9.6889E-04 9.2607E-04 .00000     1.3893       3610    
+Birlestirme.Queue.WaitingTime               2.1416     .04507     .00000     23.218       7220    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1700     .01248     .00000     2.0000     2.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .58500     .00624     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberBusy                   .76029     .01384     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .76029     .01384     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberBusy              .79306     .01163     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .79306     .01163     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .84176     .00791     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .84176     .00791     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0520     (Corr)     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52604     (Corr)     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00253     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .29954     .01296     .00000     1.0000     1.0000    
+MetalSekillendirmeQ.NumberInQueue           .33832     .00969     .00000     1.0000     .00000    
+FonksiyonTestiQ.NumberInQueue               .18945     .02179     .00000     2.0000     .00000    
+MontajPresiQ.NumberInQueue                  1.1319E-04 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .50031     .00896     .00000     2.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        358  Infinite
+Packed                                          326  Infinite
+FinishedJob                                    3252  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3610.0    
+ElektrikMontajR.ScheduledUtilization        .58500    
+SacKesimBukumR.NumberSeized                 3129.0    
+SacKesimBukumR.ScheduledUtilization         .76029    
+MetalSekillendirmeR.NumberSeized            4091.0    
+MetalSekillendirmeR.ScheduledUtilization    .79306    
+FonksiyonTestiR.NumberSeized                3610.0    
+FonksiyonTestiR.ScheduledUtilization        .84176    
+MontajPresiR.NumberSeized                   3610.0    
+MontajPresiR.ScheduledUtilization           .52604    
+System.NumberOut                            .00000    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                  Summary for Replication 10 of 10
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+Replication ended at time      : 38400.0 Minutes 
+Statistics were cleared at time: 7500.0 Minutes (Monday, December 15, 2025, 19:30:00)
+Statistics accumulated for time: 30900.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeInSys                                   37.269     .22605     28.054     56.419       3213    
+ElektrikMontajQ.WaitingTime                 .02040     .00578     .00000     2.9345       3577    
+SacKesimBukumQ.WaitingTime                  2.9672     .09343     .00000     9.9480       3076    
+MetalSekillendirmeQ.WaitingTime             2.5504     .07337     .00000     8.5751       4077    
+FonksiyonTestiQ.WaitingTime                 1.5992     .17582     .00000     13.529       3576    
+MontajPresiQ.WaitingTime                    8.8719E-04 7.5682E-04 .00000     .95902       3577    
+Birlestirme.Queue.WaitingTime               2.1689     .05825     .00000     24.119       7154    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberBusy                  1.1553     .01258     .00000     2.0000     2.0000    
+ElektrikMontajR.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ElektrikMontajR.Utilization                 .57768     .00629     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberBusy                   .74801     .01254     .00000     1.0000     1.0000    
+SacKesimBukumR.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SacKesimBukumR.Utilization                  .74801     .01254     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberBusy              .79254     .00941     .00000     1.0000     1.0000    
+MetalSekillendirmeR.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MetalSekillendirmeR.Utilization             .79254     .00941     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberBusy                  .83254     .00830     .00000     1.0000     1.0000    
+FonksiyonTestiR.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+FonksiyonTestiR.Utilization                 .83254     .00830     .00000     1.0000     1.0000    
+MontajPresiR.NumberBusy                     1.0409     .01033     .00000     2.0000     1.0000    
+MontajPresiR.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+MontajPresiR.Utilization                    .52047     .00517     .00000     1.0000     .50000    
+ElektrikMontajQ.NumberInQueue               .00236     (Insuf)    .00000     1.0000     .00000    
+SacKesimBukumQ.NumberInQueue                .29538     .01163     .00000     1.0000     .00000    
+MetalSekillendirmeQ.NumberInQueue           .33646     .01165     .00000     1.0000     .00000    
+FonksiyonTestiQ.NumberInQueue               .18508     .01733     .00000     2.0000     .00000    
+MontajPresiQ.NumberInQueue                  1.0270E-04 (Insuf)    .00000     1.0000     .00000    
+Birlestirme.Queue.NumberInQueue             .50207     .01073     .00000     2.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+ScrapJob                                        363  Infinite
+Packed                                          321  Infinite
+FinishedJob                                    3213  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ElektrikMontajR.NumberSeized                3577.0    
+ElektrikMontajR.ScheduledUtilization        .57768    
+SacKesimBukumR.NumberSeized                 3076.0    
+SacKesimBukumR.ScheduledUtilization         .74801    
+MetalSekillendirmeR.NumberSeized            4077.0    
+MetalSekillendirmeR.ScheduledUtilization    .79254    
+FonksiyonTestiR.NumberSeized                3576.0    
+FonksiyonTestiR.ScheduledUtilization        .83254    
+MontajPresiR.NumberSeized                   3577.0    
+MontajPresiR.ScheduledUtilization           .52047    
+System.NumberOut                            .00000    
+
+
+                                      ARENA Simulation Results
+                           benguozsubasi2@gmail.com - License: 7328734345
+
+                                 Output Summary for 10 Replications
+
+Project: MontajHatti                                                 Run execution date :12/ 8/2025
+Analyst: Bengu Ozsubasi Pek                                          Model revision date:12/ 8/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+ElektrikMontajR.NumberSeized                3598.9     16.874     3570.0     3635.0     10
+ElektrikMontajR.ScheduledUtilization        .58311     .00246     .57768     .58802     10
+SacKesimBukumR.NumberSeized                 3111.6     21.856     3064.0     3159.0     10
+SacKesimBukumR.ScheduledUtilization         .75576     .00619     .74083     .76979     10
+MetalSekillendirmeR.NumberSeized            4086.4     23.539     4020.0     4133.0     10
+MetalSekillendirmeR.ScheduledUtilization    .79404     .00382     .78521     .80427     10
+FonksiyonTestiR.NumberSeized                3598.8     16.976     3571.0     3637.0     10
+FonksiyonTestiR.ScheduledUtilization        .83855     .00397     .83171     .84787     10
+MontajPresiR.NumberSeized                   3599.0     16.639     3571.0     3635.0     10
+MontajPresiR.ScheduledUtilization           .52402     .00281     .51877     .52973     10
+System.NumberOut                            .00000     .00000     .00000     .00000     10
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
