@@ -34,16 +34,16 @@ Doğrulama: Sonuçların anlamlılığı %95 Güven Aralığı ile istatistiksel
 **Kullanılan Araçlar:** iThink / STELLA
 Bu çalışma, bilişsel psikolojideki öğrenme ve unutma süreçlerini "stok ve akış" diyagramları ile modelleyen bir sistem dinamiği projesidir.
 
-#### 🧠 Problem Tanımı
+#### Problem Tanımı
 Victor isimli bir dinleyicinin, İtalyan operası aryalarını dinlerken kelimeleri hafızasına alma (öğrenme) ve zamanla unutma dinamikleri arasındaki ilişki incelenmiştir.
 
-#### ⚙️ Model Yapısı
+#### Model Yapısı
 Model, "Birinci Dereceden Negatif Geri Besleme" (First Order Negative Feedback) yapısına sahiptir:
 * **Stok:** Hafızadaki Kelime Sayısı 
 * **Giriş:** Ezberleme Hızı (Şarkı Temposu) 
 * **Çıkış:** Unutma Hızı (Zaman Sabiti ile ters orantılı) 
 
-#### 📊 Analiz Sonuçları
+#### Analiz Sonuçları
 * **Denge Durumu:** Sistem, 90 saniyelik bir zaman sabiti ile dengeye ulaşmakta ve hafızada maksimum 45 kelime tutulabilmektedir.
 * **Senaryo Analizi:** Hızlı müzik senaryosunda giriş hızı arttığında, denge noktası yükselmekte ancak sistemsel davranış korunmaktadır.
 
