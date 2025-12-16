@@ -1,7 +1,7 @@
 # Endustri-Muhendisligi-MSc-Portfolyo
 Endüstri Mühendisliği Yüksek Lisans eğitimi boyunca gerçekleştirdiğim simülasyon, optimizasyon ve veri analizi projelerini içermektedir.
 
-#### 📂 Dosya Yapısı ve İçerik
+#### 📂 Çamaşır Makinesi Simülasyon Projesi Dosya Yapısı ve İçerik
 
 Bu depo, projenin anlaşılabilirliğini artırmak için senaryo bazlı klasörlenmiştir:
 
