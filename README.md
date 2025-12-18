@@ -75,8 +75,8 @@ Güvenilirlik: Modelin kararlılığı 5-Katlı Çapraz Doğrulama ve 0.9988 AUC
 Proje kapsamında analiz edilen tüm gelir grupları, müşteri harcamaları (CCAvg) ve simülasyon sonuçları Türk Lirası (TL) cinsinden hesaplanmış ve Türkiye ekonomik parametrelerine göre normalize edilmiştir.
 
 #### 📂 Dosya İçeriği
-Dokumanlar/:
-* Proje-Yonetim-Dokumani/: Proje Yönetim Dokümanı (CPM, PERT ve Çizelgeleme detayları).
-* Teknik-Uygulama_Metodoloji-Raporu/: Yazılım metodolojisi ve analiz detayları.
-* Veri_Seti/: Kaggle kaynaklı, TL bazlı normalize edilmiş müşteri verileri.
-* Bireysel_Kredi_Satis_Performansinin_Optimizasyonu/: Python (Jupyter Notebook) çalışma dosyaları.
+
+* Proje-Yonetim-Dokumani/`: Proje Yönetim Dokümanı (CPM, PERT ve Çizelgeleme detayları).
+* Teknik-Uygulama_Metodoloji-Raporu/`: Yazılım metodolojisi ve analiz detayları.
+* Veri_Seti/`: Kaggle kaynaklı, TL bazlı normalize edilmiş müşteri verileri.
+* Bireysel_Kredi_Satis_Performansinin_Optimizasyonu/`: Python (Jupyter Notebook) çalışma dosyaları.
