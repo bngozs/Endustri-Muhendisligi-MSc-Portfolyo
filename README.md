@@ -51,3 +51,32 @@ Model, "Birinci Dereceden Negatif Geri Besleme" (First Order Negative Feedback) 
 * `Model/`: iThink (.itm) model dosyası.
 * `Rapor/`: Detaylı proje raporu ve analizler (PDF).
 * `Gorseller/`: Model diyagramı ve grafik çıktısı.
+
+* ---
+### 2. 📂 Bireysel Kredi Satış Optimizasyonu Projesi Dosya Yapısı ve İçerik
+**Kullanılan Araçlar:** Python (Pandas, Scikit-learn, Matplotlib), Jupyter Notebook, Google Colab. 
+Bu çalışma, bankacılık sektöründe müşteri edinimi ve çapraz satış süreçlerini iyileştirmek amacıyla "Makine Öğrenmesi" ve "Finansal Simülasyon" teknikleri ile gerçekleştirilen bir operasyonel verimlilik projesidir.
+
+#### Problem Tanımı
+Mevcut durumda uygulanan "Soğuk Arama" (Cold Calling) stratejisi %90,4 oranında başarısızlıkla sonuçlanmakta; bu durum banka kaynaklarının (zaman, personel, bütçe) verimsiz kullanılmasına ve operasyonel maliyetlerin artmasına neden olmaktadır. Hedef, satın alma olasılığı yüksek müşterileri analitik yöntemlerle tespit etmektir.
+
+#### Model Yapısı ve Metodoloji
+Model, bankacılık verilerindeki doğrusal olmayan karmaşık ilişkilerin analizine dayanmaktadır:
+Varlıklar (Veri Seti): 5.000 müşteriye ait demografik ve finansal veriler (Gelir, Eğitim, Mevduat vb.).
+Algoritmalar: Random Forest ve Lojistik Regresyon modelleri karşılaştırılmış, Random Forest ile %99,1 tahmin başarısına ulaşılmıştır.
+Proje Yönetimi: Süreç; Tanımlama, Planlama (CPM/PERT), Yürütme ve Kapanış evreleri ile yönetilmiştir.
+
+#### Analiz ve İyileştirme Sonuçları
+Verimlilik Artışı: Hatalı (boş) arama oranları %97 oranında azaltılarak satış ekiplerinin eforu optimize edilmiştir.
+Gelir Etkisi: Model odaklı strateji ile günlük ortalama ciro potansiyeli 96.000 TL'den 329.467 TL'ye (3,5 kat) çıkarılmıştır.
+Güvenilirlik: Modelin kararlılığı 5-Katlı Çapraz Doğrulama ve 0.9988 AUC skoru ile kanıtlanmıştır.
+
+#### Maliyet ve Para Birimi Notu: 
+Proje kapsamında analiz edilen tüm gelir grupları, müşteri harcamaları (CCAvg) ve simülasyon sonuçları Türk Lirası (TL) cinsinden hesaplanmış ve Türkiye ekonomik parametrelerine göre normalize edilmiştir.
+
+#### 📂 Dosya İçeriği
+Dokumanlar/:
+Proje-Yonetim-Dokumani/: Proje Yönetim Dokümanı (CPM, PERT ve Çizelgeleme detayları).
+Teknik-Uygulama_Metodoloji-Raporu/: Yazılım metodolojisi ve analiz detayları.
+Veri_Seti/: Kaggle kaynaklı, TL bazlı normalize edilmiş müşteri verileri.
+Bireysel_Kredi_Satis_Performansinin_Optimizasyonu/: Python (Jupyter Notebook) çalışma dosyaları.
