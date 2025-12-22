@@ -26,7 +26,7 @@ Doğrulama: Sonuçların anlamlılığı %95 Güven Aralığı ile istatistiksel
 * **`Dengelenmis Sistem/`**: Kapasite artırımı ve Kaizen uygulanan iyileştirilmiş durum.
   * `Model/`: Optimize edilmiş Arena (.doe) modeli.
   * `Sonuc/`: İyileştirilmiş çıktı raporları.
-* **`Rapor/`**: Projenin detaylı akademik raporu.
+* **`Uygulama Projesi Dokümanı/`**: Projenin detaylı akademik raporu.
 
 * ---
 
